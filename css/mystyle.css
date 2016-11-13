@@ -273,8 +273,25 @@ body {
   background-color: #888;
 }
 
-.bg-white .navbar-nav > li >a {
-  color:#996515;
+.bg-white {
+  background:white;
+}
+
+.bg-white .navbar-nav > li > h2,
+.bg-white .navbar-nav > li > a {
+  
+  color:#A9A9D6 !important;
+}
+
+@media (max-width:768px) {  
+  .navbar-collapse{
+    background:white;
+  }
+
+  .navbar-nav > li > a,
+  .navbar-nav > li > h2 {
+    color:#A9A9D6 !important;
+  }
 }
 
 
