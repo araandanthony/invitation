@@ -15,13 +15,13 @@
             templateUrl:'invitation/invitation.tpl.html',
             link:function(scope, elem, attr) {
                 elem.backstretch([
-                    "img/bg/1.jpg",
+                    "img/bg/1.JPG",
                     "img/bg/2.JPG",
                     "img/bg/3.JPG",
-                    "img/bg/4.JPG",
-                    "img/bg/5.jpg",
-                    "img/bg/6.jpg",
-                    "img/bg/7.JPG",
+                    "img/bg/4.jpg",
+                    "img/bg/5.JPG",
+                    "img/bg/6.JPG",
+                    "img/bg/7.jpg",
                     "img/bg/8.jpg",
                     "img/bg/9.jpg"
                 ], {duration: 5000, fade: 1000, centeredX:true, centeredY:true});
