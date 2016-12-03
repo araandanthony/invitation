@@ -18,7 +18,7 @@
                     "img/bg/1.JPG",
                     "img/bg/2.JPG",
                     "img/bg/3.JPG",
-                    "img/bg/4.JPG",
+                    "img/bg/4.jpg",
                     "img/bg/5.JPG",
                 ], {duration: 5000, fade: 1000, centeredX:true, centeredY:true});
             }
