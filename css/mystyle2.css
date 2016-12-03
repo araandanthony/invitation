@@ -130,7 +130,7 @@ a.btn-primary:focus,
 }
 .script {
   font-family: 'Satisfy', cursive;
-  font-weight: bold;
+  --font-weight: bold;
 }
 input[type="text"],
 input[type="email"],
@@ -197,6 +197,7 @@ label {
   display: inline-block;
   padding-left: 15px;
   padding-right: 15px;
+  font-weight:200 !important;
 }
 .title-reversed {
   color: #fff;
@@ -411,6 +412,10 @@ label {
   -moz-opacity: 0.85;
   opacity: 0.85;
 }
+.headline {
+  text-align: center;
+}
+
 .headline .names {
   font-size: 76px;
   margin-bottom: 20px;
@@ -719,6 +724,7 @@ label {
 }
 .message-container .intro {
   margin-bottom: 30px;
+  font-size:18px;
   color: #786b67;
 }
 .message-container .thank-you {
@@ -727,13 +733,13 @@ label {
   margin-bottom: 15px;
 }
 .message-container .signature {
-  font-size: 28px;
+  font-size: 60px;
   color: #786b67;
 }
 .message-inner {
   max-width: 600px;
   padding: 30px;
-  padding-top: 150px;
+  padding-top: 110px;
 }
 .couple-profile {
   position: absolute;
@@ -992,7 +998,7 @@ label {
     height: auto;
   }
   .headline .names {
-    font-size: 60px;
+    font-size: 50px;
   }
   .hero-box {
     height: 100%;

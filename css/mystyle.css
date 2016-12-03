@@ -53,7 +53,12 @@ body {
 }
 
 .cursive {
-  font-family: "Dancing Script OT";  
+  --font-family: "Dancing Script OT";  
+  font-family: 'Lovers Quarrel', cursive;  
+}
+
+.cursive .big {
+  font-size:120px;
 }
 
 .wedding-font {
