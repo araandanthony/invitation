@@ -338,6 +338,11 @@ body {
   color: #786b67
 }
 
+#info .signature {
+  font-size:72px;
+  color: #A9A9D6 !important;
+}
+
 /******
 *
 * Carousel

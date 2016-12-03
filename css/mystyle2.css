@@ -720,7 +720,7 @@ label {
   background: transparent url('../img/frame-pink.png') no-repeat center top;
   min-height: 620px;
   position: relative;
-  margin-bottom: 200px;
+  --margin-bottom: 200px;
 }
 .message-container .intro {
   margin-bottom: 30px;
@@ -748,7 +748,7 @@ label {
   margin-left: -163px;
   width: 326px;
   height: 304px;
-  background: transparent url('../img/heart-couple-pink.png') no-repeat center center;
+ 
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -1214,7 +1214,4 @@ label {
 }
 .message-container {
   background-image: url('../img/frame-purple.png');
-}
-.couple-profile {
-  background-image: url('../img/heart-couple-purple.png');
 }
